@@ -1,0 +1,441 @@
+.RegisterAcc{
+  flex-direction: column;
+  margin-top: -30px;
+  
+}
+.hiddenRow {
+  display: none;
+}
+
+.RegisterAcc .active-modal{
+overflow-y:hidden;  
+}
+
+.RegisterAcc h1{
+  text-align: left;
+  font-size: 23px;
+  display: inline-block;
+  color: black;
+  
+}
+
+.addNewAccount{
+  font-size: 13px;
+  width: 100px;
+  height: 40px;
+  float: right;
+  background-color:#0C699A ;
+  margin: 10px 0;
+  cursor: pointer;
+  border: 2px solid #72ADCD; /* Set the bottom border style and color */
+  box-shadow: 0 2px 4px rgba(192, 191, 191, 0.1); 
+  border-radius: 5px;
+  color: whitesmoke;
+  
+}
+.addNewAccount:hover {
+  background-color: #679ed8;
+  color: rgb(0, 0, 0);
+}
+
+.NavAccount {
+  margin-top: 30px;
+  margin-right: 20px;
+  font-size: 18px;
+  color: black;
+  
+}
+.ActiveAcc {
+  text-decoration: underline;
+  color: black;
+  margin-right: 10px; /* Adjust as needed */
+}
+
+.ArchivedAcc {
+  text-decoration: none;
+  color: gray;
+}
+
+.ArchivedAcc:hover {
+  text-decoration: underline;
+  color: black;
+}
+.Active:hover {
+  text-decoration: underline;
+  color: gray;
+}
+
+.AccountUserTable{
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 5px;
+  border-color: rgb(120, 120, 120);
+  height: 60vh;
+  border-bottom: 2px solid #ccc; /* Set the bottom border style and color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  /* padding-top: 20px; */
+ 
+}
+
+.AccountUserTable thead th{
+  border-bottom:2px solid #ccc;
+  height: 30px;
+  /* width: 380px;  */
+  font-size: medium;
+  margin-top: -60px;
+  font-size: 13px;
+
+}
+
+.AccountUserTable tr>th:first-child{
+  width: 114px;
+  text-align: center;
+  /* border-right:2px solid #ccc; */
+ 
+}
+.AccountUserTable th:nth-child(2){
+  width: 500px; 
+  padding-left: 20px;
+}
+.AccountUserTable th:nth-child(3){
+  width: 100px; 
+}
+.AccountUserTable th:nth-child(4){
+  width:450px; 
+}
+
+.AccountUserTable th:nth-child(5){
+  width: 180px; 
+  text-align: left;  
+}
+.AccountUserTable th:nth-child(6){
+   width: 160px; 
+   text-align: center;
+ }
+.AccountUserTable th:last-child{
+  width: 100px; 
+}
+
+
+
+
+
+.AccountUserList td{
+  height: 40px;
+  /* width: 350px;  */
+  border-bottom: 1px solid #ccc; /* Set the bottom border style and color */
+  box-shadow: 2px  rgba(0, 0, 0, 0.1); 
+  text-align: left;
+  font-size: 15px;
+}
+.AccountUserList tr>td:first-child{
+  width: 90px;
+  text-align: center;
+  /* border-right:2px solid #ccc; */
+}
+.AccountUserList td:nth-child(2){
+  width: 500px; 
+  padding-left: 15px;
+}
+.AccountUserList td:nth-child(3){
+  width: 100px; 
+}
+.AccountUserTable td:nth-child(4){
+  height: 30px;
+  width: 300px; 
+  text-align: left;
+}
+.AccountUserList td:nth-child(5){
+  height: 30px;
+  width: 90px; 
+  text-align: left;
+}
+.AccountUserList td:nth-child(6){
+   height: 30px;
+   width: 180px; 
+   text-align: center;
+ }
+.AccountUserTable td:last-child{
+  height: 30px;
+  width: 100px; 
+  font-size: 13px;
+}
+
+/* .AccountUserList tr>th:first-child{
+width: 90px;
+margin-left: 30px;
+padding-right: 30px;
+margin-right: 40px;
+position: fixed;
+} */
+
+.AccountUserArchive{
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 5px;
+  border-bottom: 2px solid #ccc; /* Set the bottom border style and color */
+  box-shadow: 2px  rgba(0, 0, 0, 0.1); 
+  height: 60vh;
+  
+}
+.AccountUserArchive thead th{
+  border-radius: 5px;
+  border-color: rgb(120, 120, 120);
+  height: 30px;
+  font-size: 13px;
+  
+}
+.AccountUserArchive tr>th:first-child{
+   border-color: rgb(120, 120, 120);
+   width: 100px;
+   text-align: center;
+   
+ }
+ .AccountUserArchive th:nth-child(2){
+  border-radius: 5px;
+  width: 500px; 
+  padding-left: 20px;
+}
+.AccountUserArchive th:nth-child(3){
+  border-radius: 5px;
+  border-color: rgb(120, 120, 120);
+  width: 100px;
+  text-align: left; 
+}
+.AccountUserArchive th:nth-child(4){
+  border-radius: 5px;
+  border-color: rgb(120, 120, 120);
+  width: 430px; 
+  
+}
+
+.AccountUserArchive th:nth-child(5){
+  border-radius: 5px;
+  border-color: rgb(120, 120, 120);
+  width: 170px; 
+  text-align: left;
+}
+.AccountUserArchive th:nth-child(6){
+  border-radius: 5px;
+  border-color: rgb(120, 120, 120);
+  width: 120px; 
+  text-align: left;
+
+}
+.AccountUserArchive th:last-child{
+  border-radius: 5px;
+  border-color: rgb(120, 120, 120);
+  width: 100px; 
+}
+
+
+
+
+
+.AccountUserArchiveList td{
+  border-bottom: 2px solid #a80a0a; /* Set the bottom border style and color */
+  box-shadow: 8px  rgba(213, 2, 2, 0.1); 
+  background-color: #7673735f;
+  
+  height: 30px;
+  text-align: left;
+  font-size: 15px;
+}
+.AccountUserArchiveList tr>td:first-child{
+  width: 90px;
+  
+}
+.AccountUserArchiveList td:nth-child(2){
+  width: 500px; 
+  
+}
+.AccountUserArchiveList td:nth-child(3){
+  width: 100px; 
+  
+}
+.AccountUserArchiveList td:nth-child(4){
+  width: 300px; 
+  text-align: left;
+}
+.AccountUserArchiveList td:nth-child(5){
+ /* border-radius: 5px; */
+  width: 90px; 
+  text-align: left;
+}
+.AccountUserArchiveList td:nth-child(6){
+  /* border-radius: 5px; */
+   width: 180px; 
+   text-align: center;
+ }
+.AccountUserArchiveList td:last-child{
+  /* border-radius: 5px; */
+  height: 40px;
+  width: 100px; 
+  font-size: medium;
+}
+
+/* .AccountUserArchive{
+background-color: white;
+border-radius: 5px;
+border-color: rgb(120, 120, 120);
+height: 60vh;
+padding-top: 20px;
+
+}
+
+table.AccountUserArchiveList {
+margin-left: 10px;
+margin-right: 30px ;
+}
+.AccountUserArchive th {
+width: 180px;
+}
+
+.AccountUserArchiveList td {
+  width: 170px;
+  } */
+  
+.activeBtn{
+    background-color:#f44242;
+    border-color: #fda3a3;
+    color: white;
+    
+}
+.archiveBtn{
+background-color:#09a01a;
+border-color: rgb(13, 157, 37);
+color: rgb(255, 255, 255);
+font-size: 13px;
+}
+/* .AccountUserList tr>th:first-child{
+width: 90px;
+margin-left: 30px;
+padding-right: 30px;
+margin-right: 40px;
+position: fixed;
+}
+.AccountUserList tr>td:first-child{
+width: 90px;
+margin-left: 30px;
+position: fixed;
+padding-right: 30px;
+padding-top: 5px;
+} */
+/* .AccountUserList td{
+width: 50px;
+padding-top: 20px;
+margin-right: 30px;
+background-color: #0077B6;
+position: fixed;
+} */
+
+
+/* .modalRegister{
+  background-color: #9ECCE5;
+  margin-left: 20px;
+  padding: 20px;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+} */
+
+.closeButton{
+  float: right;
+  margin-top: -10px;
+ font-size: 100px;
+
+  
+}
+
+#registrationForm{
+  background-color: #F5F5F5;
+  padding: 30px;
+  height: 70vh;
+
+}
+
+.registerSubmit{
+  background: rgb(5,111,188);
+background: linear-gradient(90deg, rgba(5,111,188,1) 20%, rgb(14, 113, 143) 51%, rgba(5,111,188,1) 98%);
+  border-radius: 3px;
+  border-color: white;
+  margin-top: 15px;
+  float: right;
+  color:white;
+  font-size: 15px;
+  height: 30px;
+  width: 80px;
+}
+
+
+
+.modalRegister {
+  /* display: none; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 3500;
+  
+}
+
+.containerRegister {
+  background-color: #72ADCD;
+  width: 80%;
+  max-width: 550px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  position: center;
+  height: 85vh;
+ 
+}
+
+.titleHeaderReg button {
+  float: right;
+  cursor: pointer;
+ border-color: #9ecce500;
+  background-color: #72ADCD; 
+   font-size: 20px;    
+}
+
+.closeButton i {
+  float: right;
+  cursor: pointer;
+  border-radius: 5px ;
+   font-size: 30px; 
+   background-color: rgb(0, 0, 0);
+   height: 30px;
+   border-left:1px solid rgb(0, 0, 0);
+   border-right:2px solid rgb(0, 0, 0);
+
+   
+}
+#closeButton:hover {
+  color: #007BFF;
+}
+
+.titleHeaderReg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}

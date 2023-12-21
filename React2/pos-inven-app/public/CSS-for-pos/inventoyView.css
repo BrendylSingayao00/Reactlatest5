@@ -1,0 +1,101 @@
+.inventoryPrintable{
+    /* margin-top: -20px; */
+    background-color: white;
+    text-align: center;
+    height: auto;
+   
+}
+#logoPicSales{
+    width:70px ;
+    margin-top: 20px;
+    margin-left: -250px;
+    position: absolute;
+}
+
+.ptext p{
+    font-size: small;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  #dateText{
+    text-align: left;
+    margin-top: -40px;
+  }
+ .inventoryTableContainer table{
+    margin-right: 30px;
+    margin-left: 25px;
+     position: relative;
+     border-collapse: collapse; 
+     margin-bottom: 10px;
+     margin-top: 10px;
+     width: 140vh;
+     background-color: white;
+     
+  
+ }
+
+
+ .inventoryTableContainer tr{
+    text-align: center;
+    overflow: auto;
+     border: 1px solid #000;  
+      height: 20px;
+     margin-top: 40px;
+     border-inline-start-width: 0cap;
+ }
+ 
+
+ .inventoryTableContainer tr > td:first-child {
+    font-weight: bold; 
+    border: 1px solid #000;  
+    width: 10px;
+}
+ .inventoryTableContainer tr > th:first-child {
+    font-weight: bold; 
+    width: 10px;
+    border: 1px solid #000000; 
+    
+}
+.inventoryTableContainer tr > td:nth-child(2) {
+    text-align: left;
+    border: 1px solid #000; 
+}
+
+
+
+.inventoryTableContainer{
+    margin-top: -30px;
+    height: auto;
+    
+}
+
+ .inventoryTableContainer th{
+    font-size: small;
+    text-align: center;
+    height: 25px;
+    padding-top: 10px;
+    /* border-inline-start-width: 0cap; */
+ }
+ 
+ .inventoryTableContainer td {
+    padding-top: 15px;
+    border:1px solid black;
+    -ms-text-size-adjust: auto;
+   margin-bottom: -40px;
+   margin-top: -10px;
+   border-inline-start-width: 0cap;
+  }
+
+  .Inventorydownload button{
+    margin-top: 10px;
+    width: 800px;
+    height: 50px;
+    background-color: white;
+    border-color: rgb(132, 14, 14);
+    font-weight: bold;
+  }
+
+  .Inventorydownload i{
+    text-decoration: underline;
+  }

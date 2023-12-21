@@ -1,0 +1,157 @@
+.salesReport{
+    margin-top: -30px;
+    height: 75vh;
+}
+
+
+.dropmonthbtn {
+    background-color: white;
+    color: rgb(9, 9, 9);
+    padding-top: 1px;
+    font-size: 15px;
+    height: 40px;
+    width: 150px;
+    border-color: #F9F9F9;
+    display: inline-block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    
+  }
+
+  .dropdown-month {
+    position: relative;
+    display: inline-block;
+    margin-right: 600px;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    border-color: #f1f1f1;
+    background-color: white;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+   
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+    height: 30px;
+    /* margin-left: -500px; */
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown-month:hover .dropdown-content {display: block;}
+  
+  .dropdown-month:hover .dropmonthbtn {background-color: #4190eb84;}
+
+  .Salesdownload{
+    display: inline-block;
+    background-color: #49E759;
+    color: rgb(255, 255, 255);
+    padding-top: 1px;
+    font-size: 15px;
+    height: 40px;
+    width: 150px;
+    border-color: #49E759;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    right: 0;
+  }
+  .Salesdownload i{
+    text-decoration: underline;
+  }
+
+  .salesReportTable table{
+    /* margin-top: 10px; */
+    background-color: white;
+    margin-right: 10px;
+    position: relative;
+    overflow-y: auto;
+    box-shadow: 3px 2px 4px  rgba(0, 0, 0, 0.1);
+
+  }
+.salesReportTable{
+      max-height: 45vh;
+      overflow: scroll;
+      border-collapse: collapse;
+      width:153vh ;
+}
+  .salesReportTable tr{
+    overflow-y: auto;
+
+    
+  }
+  .salesReportTableHeader {
+    margin-top: 20px;
+  }
+  .salesReportTableHeader th{
+    font-size: 13px;
+    height: 50px;
+    background-color:  #ffffff;
+    width: 137px;
+    position: sticky;
+    border-bottom: 2px solid #ccc; /* Set the bottom border style and color */
+
+  }
+
+  .salesReportTable td{
+    font-size: 15px;
+    box-shadow: 0px 1px 0px 0px #5d5c5c9c;
+    overflow-y: auto;
+    border-bottom: 1px solid #ccc; /* Set the bottom border style and color */
+    width: 170px;
+  }
+  
+
+#salesBreakdownH1{
+    font-size: 16px;
+    text-align: left;
+    line-height: 0.9;
+    padding-right: 50px;
+    border-radius: 10px;
+}
+.salesBreakdown tr>th:first-child{
+    padding: 5px;
+    
+}
+
+
+
+.salesBreakdown  tr > td:first-child  {
+    background-color: #DEF4FF;
+    margin-left: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    border-right: 20px solid transparent;
+    
+}
+
+.salesBreakdown tr td{
+  background-color: #ffffff;
+  height: 40px;
+  border-spacing: 10px;
+  box-shadow: 3px 2px 4px  rgba(0, 0, 0, 0.1);
+ 
+}
+
+.salesBreakdown table{
+  border-collapse: separate;
+  border-spacing: 0 5px;
+  width: 400px;
+}
+
+
+@import 'react-calendar/dist/Calendar.css';
+
+
+
+.Calendar{
+  background-color: #49E759;
+}

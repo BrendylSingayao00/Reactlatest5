@@ -1,0 +1,334 @@
+.content-for-inven-up{
+    margin-top: 7px;
+    height: 90vh;
+    padding: 12px;
+    
+}
+
+.btnaddNewProduct{
+    width: 100px;
+    height: 40px;
+ border-radius: 5px;
+   position: absolute;
+   margin-left: 147vh;
+   margin-top: -40px;
+   color: white;
+background-color:#0C699A ;
+border: 2px solid #72ADCD;
+
+   
+   
+}
+
+.addNewProduct{
+    margin-left: 10px;
+    display: inline-block;
+    position: fixed;
+}
+
+.productUpdateTitle{
+    display: inline-block;
+    position: relative;
+}
+
+.colNP {
+    flex: 0 0 auto;
+    /* width: 23%; */
+    width: 150px;
+    margin-right: 10px;
+    text-align: center;
+}
+.addProductHide input::placeholder {
+    text-align: center; 
+}
+
+.colNP label{
+    margin-bottom: -20px;
+}
+.colNP input{
+    margin-top: 5px;
+    outline: 1px solid #ababab;
+    border-radius: 5px;
+    size:fixed;  
+}
+.colNP select{
+    margin-top: 5px;
+    outline: 1px solid #ababab;
+    border-radius: 5px;
+    size:fixed;
+}
+
+.rows {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.2 * var(--bs-gutter-x));
+    margin-left: calc(-.2 * var(--bs-gutter-x));
+}
+
+/* @media (min-width: 576px) */
+.FormProduct{
+display: flex;
+flex-direction: column;
+height: 18vh;
+position: fixed;
+margin-top: -60px;
+margin-left: 10px;
+}
+
+
+
+.editBtn{
+    background-color:rgb(39, 153, 5);
+    border-color:white;
+   color: white;
+   height: 30px;
+   width: 30px;
+   font-size: 15px;
+}
+
+.deleteBtn{
+    background-color:rgb(224, 3, 3);
+    border-color: white;
+    color:white;
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+   
+}
+
+.saveBtn{
+    border: none;
+  background: none;
+  cursor: pointer;
+   color: rgb(39, 153, 5);
+   /* height: 30px;
+   width: 30px; */
+   font-size: 15px;
+}
+.cancelBtn{
+    border: none;
+  background: none;
+  cursor: pointer;
+  color:rgb(224, 3, 3);
+   /* height: 30px;
+   width: 30px; */
+   font-size: 15px;
+   display: inline-block;
+}
+
+
+/* table {
+    border-collapse: collapse;
+    border-radius: 10px; 
+    overflow: hidden; 
+    text-align: center;
+    margin-left: -5px;
+    position: fixed;
+    table-layout: fixed;
+    margin-right: 20px;
+} */
+
+.updateProductTableHeader {
+    width: 165vh;
+    font-size:thin 25px;
+    background-color: white;
+    height: 50px;
+    position: sticky;
+    z-index: 1;
+    margin-top: 90px; 
+    padding: 5px;
+    padding-top: 3px;
+    border-bottom: 2px solid #ccc; /* Set the bottom border style and color */
+
+    
+}
+.updateProductTableHeader thead th {
+    width: 100vh;
+    height: 40px;
+    text-align: center;
+    font-size: 13px;
+}
+.updateProductTableHeader tr>th:first-child {
+    width: 80vh;
+    height: 30px;
+    text-align: center; 
+   
+}
+
+.updateProductTableHeader tr>th:nth-child(2) {
+    width: 120vh;
+    height: 30px;
+    text-align:left;
+}
+.updateProductTableHeader tr>th:nth-child(3) {
+    width: 150vh;
+    height: 30px;
+    text-align:left;
+    
+}
+.updateProductTableHeader tr>th:nth-child(4) {
+    width: 80vh;
+    height: 30px;
+    text-align:left;
+}
+.updateProductTableHeader tr>th:nth-child(5) {
+    width: 85vh;
+    height: 30px;
+    text-align:left;
+    
+}
+.updateProductTableHeader tr>th:nth-child(6) {
+    width: 70vh;
+    height: 30px;
+    text-align:left;
+}
+.updateProductTableHeader tr>th:nth-child(7) {
+    width: 80vh;
+    height: 30px;
+    text-align:left;
+
+
+}
+.updateProductTableHeader tr>th:nth-child(8) {
+    width: 50vh;
+    height: 30px;
+    text-align: center;
+}
+.updateProductTableHeader tr>th:nth-child(9) {
+    width: 70vh;
+    height: 30px;
+    text-align: center;
+}
+
+
+table.updateProductTable{
+    border-collapse: collapse;
+    
+
+}
+
+.updateProductTable{
+   height: 55vh;
+    width: 165vh;
+    background-color:white;
+     overflow: auto; 
+     border-bottom: 1px solid #ccc; /* Set the bottom border style and color */
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    }
+
+
+.updateProductTable tbody td{
+    background-color:white;
+    overflow: auto;
+    /* width: 150vh; */
+    border-bottom: 1px solid #ccc; /* Set the bottom border style and color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    table-layout: fixed;
+    overflow: hidden;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    padding-right: 10px;  
+}
+.updateProductTable tr>td:first-child {
+    width: 100vh;
+    text-align: right; 
+    padding-right: 20px;
+}
+.updateProductTable tr>td:nth-child(2) {
+    width: 250vh;
+    height: 30px;
+    text-align:left;
+}
+.updateProductTable tr>td:nth-child(3) {
+    width: 300vh;
+    height: 30px;
+    text-align:left;
+   
+    /* white-space: nowrap; */
+   
+    
+}
+.updateProductTable tr>td:nth-child(4) {
+    width: 170vh;
+    height: 30px;
+    text-align:left; 
+    
+}
+.updateProductTable tr>td:nth-child(5) {
+    width: 170vh;
+    height: 30px;
+    text-align:left;
+    /* padding-right: 10px;   */
+}
+.updateProductTable tr>td:nth-child(6) {
+    width: 170vh;
+    height: 30px;
+    text-align:left;
+    /* padding-right: 10px;   */
+}
+.updateProductTable tr>td:nth-child(7) {
+    width: 170vh;
+    height: 30px;
+    text-align:left;
+    /* padding-right: 10px;  */
+   
+}
+.updateProductTable tr>td:nth-child(8) {
+    width: 150vh;
+    height: 30px;
+    text-align:center;   
+}
+.updateProductTable tr>td:nth-child(9) {
+    width: 200vh;
+    height: 30px;
+    text-align:center;
+    padding-left: 5px;
+   
+}
+.updateProductTable tr>td:last-child{
+    width: 100vh;
+    height: 30px;
+   table-layout: fixed;
+   padding-right: 1px;
+    
+   /* padding-left: -20px; */
+}
+
+.updateProductTable tbody{
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.updateProductTable tr{
+    border-radius: 50px;
+}
+.updateProductTable tr>td:last-child{
+    text-align: right;
+    
+}
+
+
+    .btnAddProductSubmit button{
+        position: absolute; 
+        margin-top: -60px;
+        font-size: 20px;
+        margin-left: 150vh;
+        width: 80px;
+        height: 45px;
+        text-align: center;
+        color: white;
+        background-color:#0C699A ;
+        border: 2px solid #72ADCD;
+        
+    }
+
+.updatedPrice{
+    width: 30px;
+}
+
+.btnaddNewProduct i {
+    font-size: 13px;
+}
